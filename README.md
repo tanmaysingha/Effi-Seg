@@ -8,7 +8,7 @@ For this research work, we used three different datasets for urban street scene 
 * BDD100K - To access this benchmark, user needs an account. Here is the link for this dataset: https://doc.bdd100k.com/download.html#k-images
 * KITTI - To access this benchmark, user needs an account. Like Cityscapes, user needs to submit the test set result to the evaluation server.  http://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015    
 
-Notes: All these three datasets are 
+Notes: KITTI and BDD100K are class compatiable with Cityscapes dataset. We used 19 classes for all three datasets.
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
 
@@ -31,32 +31,14 @@ This is an anonymous link given by the Cityscapes server. Upon the acceptance of
 Like Cityscapes, KITTI test set result is also sumbitted to the evaluation server. Click the following link to see the result:
 https://github.com/tanmaysingha/SDBNetV2/blob/main/other_files/best_results_KITTI_mIoU.pdf
 
-### Color map of Cityscapes dataset and model prediction using validation sample
-![cityscapes_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/City_color_map.png?raw=true)  
+### Color map of all three datasets
+![cityscapes_val_set](https://github.com/tanmaysingha/Effi-Seg/blob/main/Figures/Cityscapes_prediction.png?raw=true)  
 
-### Color map of CamVid dataset and model prediction using validation sample
-![CamVid_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/camvid_color_map.png?raw=true)
+### Effi-Seg prediction using Cityscapes validation and test samples
+![Cityscapes_test_set](https://github.com/tanmaysingha/Effi-Seg/blob/main/Figures/Cityscapes_prediction.png?raw=true)
 
-### Color map of IDD-lite dataset and model prediction using validation sample
-![IDDLite_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/color_map_IDD.png?raw=true)
+### Effi-Seg prediction using BDD100K validation and test samples
+![BDD100K_test_set](https://github.com/tanmaysingha/Effi-Seg/blob/main/Figures/BDD_prediction.png?raw=true)
 
-### Color map of Indoor objects dataset and model prediction using validation sample
-![Indoor_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/color_map_indoor.png?raw=true)
-
-### SDBNetV2 prediction on Cityscapes test samples
-![Cityscapes_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/city_test_pred.png?raw=true)
-
-### SDBNetV2 prediction on BDD100K test samples
-![BDD100K_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/BDD_test_pred.png?raw=true)
-
-### SDBNetV2 prediction on CamVid validation sample
-![CamVid_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/fig_CamVid_test.png?raw=true)
-
-### SDBNetV2 prediction on KITTI test samples
-![KITTI_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/fig_KITTI_test.png?raw=true)
-
-### SDBNetV2 prediction on IDD-lite validation samples
-![IDDLite_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/Idd_lite_test_pred.png?raw=true)
-
-### SDBNetV2 prediction on IDD (part1 and part2) and Cityscapes validation samples
-![IDD_City_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/IDD_Cityscapes_1ID_pred.png?raw=true)
+### Effi-Seg prediction using KITTI validation and test samples
+![KITTI_test_set](https://github.com/tanmaysingha/Effi-Seg/blob/main/Figures/KITTI_prediction.png?raw=true)
